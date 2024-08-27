@@ -107,3 +107,4 @@ jobs:
         asset_name: ${{ matrix.package-file }}
         tag: ${{ github.ref_name }}
         prerelease: true
+        file_glob: true
