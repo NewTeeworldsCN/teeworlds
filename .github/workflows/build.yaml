@@ -112,4 +112,3 @@ jobs:
         release_name: Build Latest Teeworlds
         overwrite: true
         prerelease: true
-        overwrite: true
