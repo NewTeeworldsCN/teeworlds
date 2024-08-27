@@ -108,5 +108,7 @@ jobs:
         file: release/artifacts
         asset_name: ${{ matrix.package-file }}
         tag: build
+        release_name: Build Latest Teeworlds
+        overwrite: true
         prerelease: true
-        file_glob: true
+        overwrite: true
